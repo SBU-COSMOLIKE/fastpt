@@ -60,9 +60,6 @@ class fastpt(Theory):
           "k_max": self.kmax_boltzmann * self.accuracyboost,
           "nonlinear": False,
           "vars_pairs": [("delta_tot", "delta_tot")]
-        },
-        "Cl": { # DONT REMOVE THIS - SOME WEIRD BEHAVIOR IN CAMB WITHOUT WANTS_CL
-          'tt': 0
         }
       }
 
